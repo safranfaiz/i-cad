@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View our completed construction projects and gallery - iCAD Design & Construction portfolio of houses and buildings in Galle.">
+    <meta name="keywords" content="construction projects Galle, house construction gallery, building projects Galle, construction portfolio">
+    <meta name="author" content="iCAD Design & Construction">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Our Projects - iCAD Design & Construction">
+    <meta property="og:description" content="Browse our portfolio of completed construction projects in Galle.">
+    
+    <title>Our Projects - iCAD Design & Construction</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">i<span>CAD</span></div>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="builder.html">Builder</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 40vh; padding: var(--spacing-xl) var(--spacing-sm);">
+        <div class="hero-content">
+            <h1>Our Projects</h1>
+            <p>Showcasing our completed construction projects and craftsmanship</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Project Gallery</h2>
+                <p>Explore our portfolio of completed construction projects in Galle</p>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Project Images - Construction photos from Unsplash -->
+                <!-- You can replace these with your actual project images -->
+                <div class="gallery-item" data-image="1">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop" alt="Modern residential building construction" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="2">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop" alt="Beautiful modern house exterior" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="3">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop" alt="House construction site" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="4">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop" alt="Completed residential construction project" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="5">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" alt="Modern home interior design" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="6">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop" alt="Contemporary house architecture" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="7">
+                    <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop" alt="Luxury home construction" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="8">
+                    <img src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=800&h=600&fit=crop" alt="New house construction project" loading="lazy">
+                </div>
+                <div class="gallery-item" data-image="9">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop" alt="Residential building construction" loading="lazy">
+                </div>
+            </div>
+
+            <div class="text-center mt-xl">
+                <p style="font-size: 1.1rem; margin-bottom: var(--spacing-md);">Interested in our work?</p>
+                <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&#8249;</button>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">&#8250;</button>
+        <div class="lightbox-content">
+            <img class="lightbox-img" id="lightboxImg" src="" alt="">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About Us</a>
+                <a href="builder.html">Builder</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2024 iCAD Design & Construction. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Contact Bar (Mobile) -->
+    <div class="sticky-contact-bar">
+        <a href="tel:+94XXXXXXXXX" class="btn btn-primary">📞 Call</a>
+        <a href="https://wa.me/94XXXXXXXXX?text=Hi,%20I%20am%20interested%20in%20your%20construction%20services" target="_blank" class="btn btn-secondary">💬 WhatsApp</a>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the builder behind iCAD Design & Construction - Professional construction expert with years of experience in Galle.">
+    <meta name="keywords" content="builder Galle, construction expert, professional builder, construction contractor Galle">
+    <meta name="author" content="iCAD Design & Construction">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About the Builder - iCAD Design & Construction">
+    <meta property="og:description" content="Meet the experienced builder and founder of iCAD Design & Construction.">
+    
+    <title>About the Builder - iCAD Design & Construction</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .builder-profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+        }
+        
+        .profile-picture {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--accent-color);
+            margin-bottom: var(--spacing-lg);
+            box-shadow: var(--box-shadow-lg);
+        }
+        
+        .builder-info {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+        }
+        
+        .info-card {
+            background-color: var(--bg-light);
+            padding: var(--spacing-md);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        .info-card h3 {
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .info-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .info-card ul li {
+            padding: var(--spacing-xs) 0;
+            padding-left: var(--spacing-md);
+            position: relative;
+        }
+        
+        .info-card ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        
+        @media (min-width: 768px) {
+            .builder-profile {
+                flex-direction: row;
+                text-align: left;
+                align-items: flex-start;
+                gap: var(--spacing-xl);
+            }
+            
+            .profile-section {
+                flex-shrink: 0;
+            }
+            
+            .profile-details {
+                flex: 1;
+            }
+            
+            .info-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">i<span>CAD</span></div>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="builder.html">Builder</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 40vh; padding: var(--spacing-xl) var(--spacing-sm);">
+        <div class="hero-content">
+            <h1>About the Builder</h1>
+            <p>Meet the expert behind iCAD Design & Construction</p>
+        </div>
+    </section>
+
+    <!-- Builder Profile Section -->
+    <section id="builder-profile">
+        <div class="container">
+            <div class="builder-profile">
+                <div class="profile-section">
+                    <!-- Profile Picture - Replace with actual image -->
+                    <img src="images/builder-profile.jpg" alt="Builder Profile Picture" class="profile-picture" id="builderImage" onerror="this.src='https://via.placeholder.com/250x250/1e3a5f/ffffff?text=Profile+Picture';">
+                </div>
+                <div class="profile-details">
+                    <h2 style="margin-bottom: var(--spacing-md);">Builder Name</h2>
+                    <p style="font-size: 1.2rem; color: var(--accent-color); margin-bottom: var(--spacing-md); font-weight: 600;">
+                        Founder & Lead Builder
+                    </p>
+                    <p style="font-size: 1.1rem; margin-bottom: var(--spacing-md);">
+                        With extensive experience in the construction industry, I have dedicated my career to building quality homes and structures that stand the test of time. My passion for construction excellence drives every project we undertake at iCAD Design & Construction.
+                    </p>
+                    <p style="margin-bottom: var(--spacing-md);">
+                        I believe in combining traditional craftsmanship with modern techniques, ensuring that every client receives the highest quality workmanship and attention to detail. Your vision is my mission, and I take pride in transforming dreams into reality.
+                    </p>
+                </div>
+            </div>
+
+            <div class="builder-info">
+                <div class="section-title">
+                    <h2>Professional Details</h2>
+                </div>
+
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>Over [X] years in construction industry</li>
+                            <li>Expert in residential construction</li>
+                            <li>Specialized in architectural design</li>
+                            <li>Proven track record of successful projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Expertise</h3>
+                        <ul>
+                            <li>Structural engineering and design</li>
+                            <li>Building construction management</li>
+                            <li>Renovation and remodeling</li>
+                            <li>Quality control and supervision</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Credentials</h3>
+                        <ul>
+                            <li>Licensed construction professional</li>
+                            <li>Certified in building construction</li>
+                            <li>Continuous professional development</li>
+                            <li>Industry recognized certifications</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Commitment</h3>
+                        <ul>
+                            <li>Quality-focused approach</li>
+                            <li>Timely project completion</li>
+                            <li>Transparent communication</li>
+                            <li>Customer satisfaction guarantee</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="background-color: var(--primary-color); color: var(--bg-white); padding: var(--spacing-lg); border-radius: var(--border-radius); margin-top: var(--spacing-xl); text-align: center;">
+                    <h3 style="color: var(--bg-white); margin-bottom: var(--spacing-md);">Let's Build Your Dream Together</h3>
+                    <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: var(--spacing-lg);">
+                        I'm personally involved in every project to ensure the highest standards of quality and craftsmanship. Contact me to discuss your construction needs.
+                    </p>
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About Us</a>
+                <a href="builder.html">Builder</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2024 iCAD Design & Construction. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Contact Bar (Mobile) -->
+    <div class="sticky-contact-bar">
+        <a href="tel:+94XXXXXXXXX" class="btn btn-primary">📞 Call</a>
+        <a href="https://wa.me/94XXXXXXXXX?text=Hi,%20I%20am%20interested%20in%20your%20construction%20services" target="_blank" class="btn btn-secondary">💬 WhatsApp</a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
